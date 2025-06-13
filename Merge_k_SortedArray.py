@@ -1,9 +1,9 @@
 #ACTUALLY I didn't know how to initalize the linked list
 #but i will convert those into list and do the below steps and append into the list 
-print("Enter the no.of lists")
+print("Enter the no.of linked lists")
 k = int(input())
 p = []
-print("Enter the Lists")
+print("Enter the data in linkedLists")
 for i in range(0,k):
     p.append(list(map(int,input().split())))
 result = []
